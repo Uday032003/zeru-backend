@@ -27,3 +27,6 @@ Data Sources:
 - On server start, data is fetched immediately from the subgraph.
 - Then, data is re-fetched every 10 minutes using `node-cron`.
 - All data is saved to a local SQLite database i created(`dataBata.db`).
+
+## Deployed in RENDER 
+https://zeru-backend.onrender.com
