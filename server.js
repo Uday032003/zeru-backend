@@ -75,7 +75,6 @@ const fetchData = async () => {
     const { data } = await response.json();
     const currentTime = Math.floor(Date.now() / 1000);
 
-    // Insert into restakers table
     for (const deposit of data.deposits) {
       const { depositor, amount, pool } = deposit;
       const { id } = pool;
